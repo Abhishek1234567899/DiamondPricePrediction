@@ -4,3 +4,6 @@ Version: 0.0.1
 Author: abhi patidar
 Author-email: abhi9644@gmail.com
 License-File: LICENSE
+Requires-Dist: scikit-learn
+Requires-Dist: pandas
+Requires-Dist: numpy
