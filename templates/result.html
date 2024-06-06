@@ -1,3 +1,49 @@
-<h1>Welcome to Abhishek Diamond Price Prediction Portal</h1>
-<h2>From Clarity to Carats: Predicting Diamond Prices with Precision</h2>
-<h3>The Dimond Price Will be {{final_result}}</h3>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Diamond Price Prediction Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            text-align: center;
+            margin: 50px;
+        }
+        h1 {
+            color: #007bff; /* Blue color */
+        }
+        h2 {
+            color: black; /* Black color */
+        }
+        .result {
+            background-color: #f9f9f9;
+            padding: 20px;
+            margin: 20px auto;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            max-width: 600px;
+        }
+        .result-label {
+            color: green; /* Green color */
+        }
+        .result-value {
+            color: red; /* Red color */
+        }
+        .thanks {
+            margin-top: 20px;
+            font-weight: bold;
+            color: #007bff; /* Blue color */
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Abhishek Diamond Price Prediction Portal</h1>
+    <h2>From Clarity to Carats: Predicting Diamond Prices with Precision</h2>
+    <div class="result">
+        <h3><span class="result-label">Your Predicted Diamond Price is:</span> <span class="result-value">{{ final_result }}</span></h3>
+    </div>
+    <div class="thanks">
+        <p>Thank you for using our Diamond Price Prediction Portal.</p>
+    </div>
+</body>
+</html>
