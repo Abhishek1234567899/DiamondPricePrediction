@@ -43,17 +43,7 @@ pip install -r requirements.txt
 ##### local cmd
 - mlflow ui
 
-### dagshub
-[dagshub](https://dagshub.com/)
 
-MLFLOW_TRACKING_URI=https://dagshub.com/sunny.savita/fsdsmendtoend.mlflow \
-MLFLOW_TRACKING_USERNAME=sunny.savita \
-MLFLOW_TRACKING_PASSWORD=3c2c8cd1436ad32b510cfdd84944a528ba4fb650 \
-python script.py
-
-Run this to export as env variables:
-
-```bash
 
 
 
