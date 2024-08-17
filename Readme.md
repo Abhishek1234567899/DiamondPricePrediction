@@ -58,3 +58,6 @@ export MLFLOW_TRACKING_PASSWORD=3c2c8cd1436ad32b510cfdd84944a528ba4fb650
 - dvc init
 - dvc repro
 - dvc dag
+
+
+https://github.com/user-attachments/assets/eeca959f-a651-40b5-b378-c5018d269c0f
